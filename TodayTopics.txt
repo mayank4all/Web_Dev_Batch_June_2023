@@ -1,0 +1,8 @@
+How does the internet work? What are clients and servers in layman's language
+what is DNS?
+Interactive (dynamic websites) and static websites?
+Web apps and Websites
+What is VsCode, Installing VsCode
+A brief history of HTML
+What is HTML Document? What is markup? 
+What is the difference between basics in HTML, CSS and javascript with the examples?

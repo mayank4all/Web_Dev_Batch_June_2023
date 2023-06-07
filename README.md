@@ -2,4 +2,4 @@
 
 Resources:
 
-Notes: 
+Notes: https://docs.google.com/document/d/1Cp3iCUZZS3d7boZH_LmQXbFqEIGdmQwcLJCDjWRjTbM/edit#

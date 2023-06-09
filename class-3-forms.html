@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="/submit">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">Enter your First name: *</label>
+            <input minlength="3" maxlength="50" required id="fname" type="text" name="fname" placeholder="Enter your name. *">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Office Information</legend>
+            <label for="fname">Enter your Office Address:</label>
+            <input id="fname" type="text" name="fname" placeholder="Enter your office address">
+        </fieldset>
+
+        <br>
+        <br>
+        <label for="gender">Enter your gender</label>
+        <input type="radio" name="gender" id="gender" value="m">
+        <label for="male">MALE</label>
+        <input type="radio" name="gender" id="gender" value="f">
+        <label for="female">FEMALE</label><br>
+
+        <label for="subjects">Choose Subjects:</label><br>
+        <input type="checkbox" name="subject" id="" value="m1">
+        <label for="maths">Maths</label><br>
+        <input type="checkbox" name="subject" id="" value="e1">
+        <label for="english">English</label>
+        <input type="checkbox" name="" id="">
+        <label for="chem">Chemistry</label>
+        <input type="checkbox" name="" id="">
+        <label for="phy">Physics</label>
+        
+        <br>
+        <br>
+        <label for="file">Choose file:</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <br>
+        <label for="password">Enter your password:</label>
+        <input type="password" name="pwd" id="pwd" placeholder="Enter password">
+
+        <br>
+        <br>
+        <label for="dob">Enter your DOB</label>
+        <input type="date" name="" id="">
+
+        <input type="email" name="" id="" required>
+
+        <input type="tel" name="" id="">
+
+        <input type="color" name="" id="">
+        <button>submit</button>
+
+        <input type="url" name="" id="">
+
+        <input type="range" name="" id="" min="1" max="100">
+
+    </form>
+
+    <br>
+    <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio>
+
+   
+    
+</body>
+</html>
+
+<!-- http://127.0.0.1:5500/submit?fname=Mayank -->
+
+<!-- http://127.0.0.1:5500/submit?fname=Mayank&gender=FEMALE&subject=on -->

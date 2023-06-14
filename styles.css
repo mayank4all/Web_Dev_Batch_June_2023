@@ -1,0 +1,59 @@
+h1, h2, h3, h5, h6{
+    background-color: rgb(190, 31, 57);
+    color: purple;
+}
+
+/* Commenting 
+// - Single line comment
+comment - Multi line comment */
+
+/* <!-- comment --> */
+
+* {
+    /* background-color: #AABCDE; */
+    /* background-color: pink; */
+    /* background-color: rgb(69, 173, 109); */
+    background-color: hsl(226, 45%, 77%);
+    color: red;
+    margin-top: 25px;
+}
+/* Define Colors
+1. Name (red, green, blue, yellow)
+2. RGB (Red, green, blue) - 0-255
+3. HEX-Code - #ffffff (0-9, A-F)
+4. HSL (Hue, Saturation, Lightness)
+Hue - intensity of red, green, blue (0-300)
+Saturation - saturation (0-100 %)
+Lightness - 0-100 (%) */
+
+.para{
+    color: white;
+    background-color: blue;
+}
+
+/* #p01{
+    background-color: black;
+} */
+
+#p02{
+    background-color: red;
+}
+
+#p03{
+    background-color: blue;
+    color: darkgreen;
+}
+
+#p04{
+    background-color: green;
+}
+
+Element Selector - h1, h2, h3, p, audio, video, input
+
+Class Selector - .(dot), class=""
+
+Id Selector - #name, id=""
+
+Universal Selector - *
+
+ID Selector > Class Selector > Element Selector > Universal Selector

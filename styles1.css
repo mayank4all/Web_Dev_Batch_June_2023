@@ -1,0 +1,35 @@
+p {
+    /* position: absolute; */
+    /* background-color: aqua; */
+    /* padding: 200px; */
+    margin: 100px;
+    padding: 200px;
+    background-image: url("https://i.ibb.co/D9SSCsX/laptop.jpg");
+    background-size: 50%;
+    background-repeat:space;
+    /* background-attachment: inherit;
+    background-position: bottom right; */
+    /* background: url("https://i.ibb.co/D9SSCsX/laptop.jpg") no-repeat repeat bottom right; */
+    /* opacity: 80%; */
+    /* background-size: 50%; */
+    /* background-size: contain; */
+    background-repeat: repeat;
+    /* border-radius: 50%; */
+    overflow-y: scroll;
+    background-attachment: fixed ;
+    /* height: 10px; */
+
+}
+
+div {
+    background-attachment: scroll;
+}
+
+/* background property. 
+{background-color: red;}
+{background-image: url(""accio.jpg"");}
+repeat-x,repeat-y,no-repeat
+background-size property
+background-attachment
+background-position property
+background shorthand -> color url repeat attachment position */

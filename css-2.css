@@ -1,0 +1,115 @@
+/* p:hover {
+    background-color: green;
+    font-size: 20px;
+} */
+
+
+h1:active{
+    background-color: red;
+}
+
+/* input:focus {
+    background-color: blue;
+} */
+
+a:visited {
+    color: red;
+}
+
+.parent {
+    background-color: blue;
+    font-size: 20px;
+}
+
+.child {
+    background-color: pink;
+}
+
+.hover:hover {
+    background-color: orange;
+}
+
+/* li:first-child {
+    background-color: red;
+} */
+
+/* li:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+li:nth-child(even) {
+    background-color: grey;
+}
+
+li:only-child {
+    background-color: red;
+} */
+
+#text:enabled {
+    background-color: aqua;
+}
+
+#pwd:disabled {
+    background-color: grey;
+}
+
+#check:checked {
+    outline: 2px solid deeppink;
+}
+
+#sal:required {
+    background-color: red;
+}
+
+/* li:last-child {
+    background-color: blue;
+} */
+
+div p{
+    color: red;
+}
+
+div div p {
+    background-color: orange;
+}
+
+dl>li {
+    background-color: pink;
+}
+
+div+p {
+    background-color: crimson;
+}
+
+.box::before {
+    content: "I am a before text";
+    color: red;
+    background-color: yellow;
+}
+
+.box::after {
+    content: "I am a after text";
+    color:blue;
+    background-color: pink;
+}
+
+.box {
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.spec {
+    background-color: purple !important;
+}
+
+
+
+/* Combinators - 
+Descendant combinator (space), 
+Child combinator (>), 
+Adjacent sibling combinator (+), 
+Pseudo-elements (Focus mainly on before & after) */

@@ -1,0 +1,74 @@
+/* .disp {
+    display: inline;
+} */
+ 
+li {
+    display: inline;
+}
+
+span:hover {
+    /* visibility: hidden;  */
+}
+
+span:active {
+    display: none;
+}
+
+
+h2:hover {
+    visibility: hidden;
+}
+
+.text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text1 {
+    text-align: right;
+    text-transform: lowercase;
+    line-height: 30px;
+    word-spacing: 5px;
+    font-size: 100%;
+    /* font-style: oblique; */
+    font-weight:700;
+}
+
+.text2 {
+    text-align: end;
+    text-transform: capitalize;
+}
+
+.text3 {
+    text-align:justify;
+    font-family: "Kablammo", sans-serif;
+    font-size: 1rem;
+}
+
+img {
+    /* width: 50vw; */
+    height: 50vh;
+    max-width: 300px;
+    max-height: fit-content;
+}
+
+input {
+    width: max-content;
+    background-color: orange;
+}
+
+/* vw - 1268px - 50vw (634px) */
+
+/* Block Level - div, h1...h6, p, form, header
+Inline Level - span, a, img */
+
+/* vw - view port width
+vh - view height
+
+1080*768px = 
+
+px -> constant 
+
+Browser's default font size - 14px -> 16px
+em - 0.875em = 87.5% of 14px
+rem - responsive =  */

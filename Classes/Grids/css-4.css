@@ -5,7 +5,7 @@
     margin: 10px;
     text-align: center;
     background-color: grey;
-    position: absolute;
+    position: absolute; /*relative, fixed, sticky, static*/
     z-index: 12;
 
 }
@@ -80,7 +80,7 @@ img {
   }
 
   #flex-second {
-    flex: 2;
+    flex: 20;
     border: 1px solid blue;
     align-content: center;
   }

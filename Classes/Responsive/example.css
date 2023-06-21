@@ -1,0 +1,25 @@
+* {
+    margin: 10px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+/* 
+:root {
+    --primary-text-color: #222;
+    --secondary-text-color: #444;
+    --card-background-color: #fff;
+    --background-color: #eee;
+    --default-margin: 30px;
+} */
+
+.dark {
+    background-color: #111;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+    border-radius: 10px;
+    row-gap: 20px;
+    column-gap: 30px;
+    grid-template-areas: "a a b"
+     "a a b"
+     "c c c";
+}
+
+.grid-1 {
+    border: 1px solid black;
+    grid-area: a;
+}
+
+.grid-2 {
+    border: 1px solid black;
+    grid-area: b;
+}
+
+.grid-3 {
+    border: 1px solid black;
+    grid-area: c;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 10px 100px 20px 10px;
+}
+
+.grid-x {
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: 1/1/2/5;
+    background-color: orange;
+}
+
+.grid-y {
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: 3/1/6/4;
+    background-color: red;
+}

@@ -1,0 +1,59 @@
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+    display: grid;
+}
+
+@media (max-width: 600px) and (min-width: 400px) {
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (orientation: landscape) {
+    .cards {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media () {
+    
+}
+
+.card {
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: red;
+    }
+}
+
+@media (hover: hover) {
+    .card:hover {
+        background-color: orange;
+        color: black;
+    }
+}
+
+0-500px - 1 grid/row
+400-600px - 3grid/row
+>600px - 2grid/row
